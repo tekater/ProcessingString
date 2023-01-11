@@ -31,5 +31,13 @@ public class Main {
         System.out.println(Arrays.asList(phrasePart));
 
         // проход через строку
+        String scientistName = "Isaac Newton";
+        
+        for (int i = 0; i < scientistName.length(); i++) {
+            System.out.print(scientistName.charAt(i) + " ");
+
+        }
+
+
     }
 }
